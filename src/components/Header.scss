@@ -1,0 +1,33 @@
+a {
+  text-decoration: none !important;
+}
+
+.text-resete {
+  color: #9da6ab !important;
+}
+
+.flex {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-right: 30px;
+}
+
+.active {
+  border-bottom: 1px solid #9da6ab;
+}
+
+.navBar {
+  background-color: #2d333b;
+
+  img {
+    filter: invert(70%) sepia(17%) saturate(238%) hue-rotate(171deg)
+      brightness(86%) contrast(77%);
+  }
+}
+
+.second-nav {
+  margin-left: 50px !important;
+  gap: 10px !important;
+}

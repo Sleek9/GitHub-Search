@@ -1,0 +1,45 @@
+@use "sass:math";
+@import "../App.scss";
+.cardHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: #9da6ab !important;
+  background-color: #2d333b !important;
+
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #1b1e22;
+    transition: border 1s;
+    &:hover {
+      border: 5px solid #1c3961;
+    }
+  }
+  p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.my-tooltip > .tooltip-inner {
+  color: #9da6ab;
+  background-color: #1b1e22;
+  border: 1px solid #1c3961;
+}
+
+@media (min-width: 541px) {
+  .cardHome {
+    gap: 15px;
+    margin: auto;
+    width: auto;
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
